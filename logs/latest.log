@@ -1,0 +1,443 @@
+[16:10:09] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.10
+[16:10:09] [ForkJoinPool-1-worker-1/WARN]: Mod lod uses the version 1.6.9a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[16:10:09] [main/INFO]: Loading 61 mods:
+	- architectury 6.3.49
+	- bcc 2.0.2-build.16+mc1.19.1
+	- betterstats 1.4.3
+	- bookshelf 16.1.5
+	- cloth-basic-math 0.6.1 via cloth-config
+	- cloth-config 8.2.88
+	- clumps 9.0.0+11
+	- fabric-api 0.64.0+1.19.2
+	- fabric-api-base 0.4.12+93d8cb8290 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.10+93d8cb8290 via fabric-api
+	- fabric-biome-api-v1 9.0.18+c6af733c90 via fabric-api
+	- fabric-command-api-v1 1.2.12+f71b366f90 via fabric-api
+	- fabric-command-api-v2 2.1.8+93d8cb8290 via fabric-api
+	- fabric-commands-v0 0.2.29+df3654b390 via fabric-api
+	- fabric-containers-v0 0.1.35+df3654b390 via fabric-api
+	- fabric-content-registries-v0 3.4.0+6064db2a90 via fabric-api
+	- fabric-convention-tags-v1 1.1.2+93d8cb8290 via fabric-api
+	- fabric-crash-report-info-v1 0.2.6+aeb40ebe90 via fabric-api
+	- fabric-data-generation-api-v1 5.2.2+b598f4ac90 via fabric-api
+	- fabric-dimensions-v1 2.1.32+0dd10df690 via fabric-api
+	- fabric-entity-events-v1 1.4.19+9ff28f4090 via fabric-api
+	- fabric-events-interaction-v0 0.4.29+c6af733c90 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.29+df3654b390 via fabric-api
+	- fabric-game-rule-api-v1 1.0.22+c6af733c90 via fabric-api
+	- fabric-item-api-v1 1.5.8+93d8cb8290 via fabric-api
+	- fabric-item-groups-v0 0.3.32+70efcffe90 via fabric-api
+	- fabric-lifecycle-events-v1 2.2.0+33ffe9ec90 via fabric-api
+	- fabric-loot-api-v2 1.1.6+83a8659290 via fabric-api
+	- fabric-loot-tables-v1 1.1.9+9e7660c690 via fabric-api
+	- fabric-message-api-v1 5.0.4+93d8cb8290 via fabric-api
+	- fabric-mining-level-api-v1 2.1.17+33fbc73890 via fabric-api
+	- fabric-networking-api-v1 1.2.5+c6af733c90 via fabric-api
+	- fabric-networking-v0 0.3.22+df3654b390 via fabric-api
+	- fabric-object-builder-api-v1 4.0.14+93d8cb8290 via fabric-api
+	- fabric-particles-v1 1.0.11+79adfe0a90 via fabric-api
+	- fabric-registry-sync-v0 0.9.26+c6af733c90 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.15+aeb40ebe90 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.8+c6af733c90 via fabric-api
+	- fabric-resource-conditions-api-v1 2.1.0+aae9039d90 via fabric-api
+	- fabric-resource-loader-v0 0.7.2+70efcffe90 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.1+1cc24b1b90 via fabric-api
+	- fabric-transfer-api-v1 2.1.1+93d8cb8290 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.3.1+42d99c3290 via fabric-api
+	- fabricloader 0.14.10
+	- jade 8.2.2
+	- java 17
+	- jei 11.3.0.271
+	- justenoughprofessions 2.0.1
+	- lithium 0.10.0
+	- minecraft 1.19.2
+	- mousewheelie 1.10.2+mc1.19-pre1
+	- phosphor 0.8.1
+	- shulkerboxtooltip 3.2.1+1.19.2
+	- tipthescales 6.0.6
+	- toolstats 12.0.2
+	- tweed4_annotated 1.3.1+mc22w17a via mousewheelie
+	- tweed4_base 1.6.0+mc22w17a via mousewheelie
+	- tweed4_data 1.2.1+mc22w17a via mousewheelie
+	- tweed4_data_hjson 1.1.1+mc22w17a via mousewheelie
+	- xaerominimap 22.16.0
+	- xaeroworldmap 1.28.1
+[16:10:09] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Arnold/Desktop/server1.19.2/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[16:10:09] [main/INFO]: Compatibility level set to JAVA_16
+[16:10:09] [main/INFO]: Compatibility level set to JAVA_17
+[16:10:09] [main/WARN]: Reference map 'JustEnoughProfessions-fabric-1.19-refmap.json' for justenoughprofessions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:10:10] [main/INFO]: Loaded configuration file for Lithium: 105 options available, 0 override(s) found
+[16:10:10] [main/WARN]: Error loading class: net/minecraft/class_315 (java.lang.ClassNotFoundException: net/minecraft/class_315)
+[16:10:10] [main/WARN]: @Mixin target net.minecraft.class_315 was not found tipthescales.mixins.json:AccessOptions from mod tipthescales
+[16:10:15] [main/INFO]: Building unoptimized datafixer
+[16:10:17] [main/WARN]: Config file not found, creating default config
+[16:10:17] [main/INFO]: Loading config file
+[16:10:17] [main/INFO]: Config file loaded
+[16:10:17] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[16:10:17] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[16:10:17] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[16:10:17] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[16:10:17] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[16:10:17] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[16:10:17] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[16:10:17] [main/INFO]: Start loading plugin from jade
+[16:10:17] [main/INFO]: Start loading plugin from jade
+[16:10:17] [main/INFO]: Start loading plugin from jade
+[16:10:17] [Thread-1/ERROR]: Catching
+java.nio.file.NoSuchFileException: .\config\jade\sort-order.json
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at java.nio.file.Files.write(Files.java:3512) ~[?:?]
+	at snownee.jade.impl.PriorityStore.lambda$updateConfig$0(PriorityStore.java:81) ~[Jade-1.19.1-fabric-8.2.2.jar:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[16:10:17] [main/INFO]: [ShulkerBoxTooltip] Could not find configuration file, creating default file
+[16:10:17] [main/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
+[16:10:17] [main/INFO]: Could not load 'betterstats' config. File not found.
+[16:10:17] [main/INFO]: Loaded 'betterstats' config.
+[16:10:17] [main/INFO]: Could not load 'betterstats' config for the 'BSMobStatRenderConfig'. File not found.
+[16:10:17] [main/INFO]: Could not load 'betterstats' config for the 'BSWikiLinkConfig'. File not found.
+[16:10:17] [main/INFO]: Reloaded configs for mousewheelie (server/highest)
+[16:10:17] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[16:10:17] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[16:10:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:10:18] [main/INFO]: Found new data pack Fabric Mods, loading it automatically
+[16:10:19] [main/INFO]: Loaded 7 recipes
+[16:10:19] [main/INFO]: Loaded 1179 advancements
+[16:10:20] [main/INFO]: Reloaded configs for mousewheelie (server/smallest)
+[16:10:20] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 2.631 ms
+[16:10:20] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[16:10:20] [Server thread/INFO]: Loading properties
+[16:10:20] [Server thread/INFO]: Default game type: SURVIVAL
+[16:10:20] [Server thread/INFO]: Generating keypair
+[16:10:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:10:20] [Server thread/INFO]: Using default channel type
+[16:10:21] [Server thread/INFO]: Preparing level "world"
+[16:10:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:10:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:10:24] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:10:24] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[16:10:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:10:24] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:10:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:10:24] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:10:25] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[16:10:25] [Server thread/INFO]: Time elapsed: 3839 ms
+[16:10:25] [Server thread/INFO]: Done (4.335s)! For help, type "help"
+[16:10:25] [Server thread/INFO]: Reloaded configs for mousewheelie (server/world)
+[16:10:25] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[16:10:25] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[16:10:26] [User Authenticator #1/INFO]: UUID of player Fehler_ is 16ce3aed-31a3-422c-9272-056f109cbdc8
+[16:10:27] [Server thread/INFO]: Fehler_[/91.97.5.94:38862] logged in with entity id 325 at (-151.11226960172044, 71.0, -384.64196490407267)
+[16:10:27] [Server thread/INFO]: Syncing config to Fehler_ (16ce3aed-31a3-422c-9272-056f109cbdc8)
+[16:10:27] [Server thread/INFO]: Fehler_ joined the game
+[16:10:27] [User Authenticator #2/INFO]: UUID of player Todeskakadu is ada73803-2e0b-47b4-a0a4-90f777a823d4
+[16:10:27] [Netty Server IO #14/INFO]: [ShulkerBoxTooltip] Fehler_: protocol version: 2.0
+[16:10:27] [Server thread/INFO]: [ShulkerBoxTooltip] Loading 1 plugin: shulkerboxtooltip
+[16:10:27] [Server thread/INFO]: [ShulkerBoxTooltip] Registered 7 providers for mod shulkerboxtooltip
+[16:10:27] [Server thread/INFO]: Todeskakadu[/91.97.0.189:61926] logged in with entity id 326 at (-126.51249998807907, 51.0, -315.5576477640827)
+[16:10:27] [Server thread/INFO]: Syncing config to Todeskakadu (ada73803-2e0b-47b4-a0a4-90f777a823d4)
+[16:10:27] [Server thread/INFO]: Todeskakadu joined the game
+[16:10:27] [Netty Server IO #16/INFO]: [ShulkerBoxTooltip] Todeskakadu: protocol version: 2.0
+[16:10:28] [User Authenticator #3/INFO]: UUID of player NighterGer is 56619ff0-a0a1-43ad-9d20-767d538a2ac4
+[16:10:28] [Server thread/INFO]: NighterGer[/31.150.81.189:52153] logged in with entity id 372 at (-127.3150682843252, 73.0, -366.62172704442656)
+[16:10:28] [Server thread/INFO]: Syncing config to NighterGer (56619ff0-a0a1-43ad-9d20-767d538a2ac4)
+[16:10:28] [Server thread/INFO]: NighterGer joined the game
+[16:10:28] [Netty Server IO #18/INFO]: [ShulkerBoxTooltip] NighterGer: protocol version: 2.0
+[16:12:21] [User Authenticator #4/INFO]: UUID of player BolkeDerBaer is 26d540d1-9fc7-4e4c-83de-7a77b11612e4
+[16:12:21] [Server thread/INFO]: BolkeDerBaer[/127.0.0.1:5379] logged in with entity id 1863 at (-96.64956823795056, 72.0, -369.0426296683363)
+[16:12:21] [Server thread/INFO]: Syncing config to BolkeDerBaer (26d540d1-9fc7-4e4c-83de-7a77b11612e4)
+[16:12:21] [Server thread/INFO]: BolkeDerBaer joined the game
+[16:12:22] [Netty Server IO #20/INFO]: [ShulkerBoxTooltip] BolkeDerBaer: protocol version: 2.0
+[16:12:26] [Server thread/INFO]: BolkeDerBaer lost connection: Disconnected
+[16:12:26] [Server thread/INFO]: BolkeDerBaer left the game
+[16:14:57] [Server thread/INFO]: Todeskakadu has made the advancement [Acquire Hardware]
+[16:15:18] [User Authenticator #5/INFO]: UUID of player BolkeDerBaer is 26d540d1-9fc7-4e4c-83de-7a77b11612e4
+[16:15:18] [Server thread/INFO]: BolkeDerBaer[/127.0.0.1:5582] logged in with entity id 5600 at (-96.64956823795056, 72.0, -367.598495235041)
+[16:15:18] [Server thread/INFO]: Syncing config to BolkeDerBaer (26d540d1-9fc7-4e4c-83de-7a77b11612e4)
+[16:15:18] [Server thread/INFO]: BolkeDerBaer joined the game
+[16:15:20] [Netty Server IO #0/INFO]: [ShulkerBoxTooltip] BolkeDerBaer: protocol version: 2.0
+[16:15:27] [Server thread/INFO]: BolkeDerBaer lost connection: Disconnected
+[16:15:27] [Server thread/INFO]: BolkeDerBaer left the game
+[16:15:47] [Server thread/INFO]: Todeskakadu has made the advancement [Isn't It Iron Pick]
+[16:16:17] [Server thread/INFO]: NighterGer has made the advancement [Stone Age]
+[16:16:52] [Server thread/INFO]: Todeskakadu has made the advancement [Monster Hunter]
+[16:17:13] [User Authenticator #6/INFO]: UUID of player BolkeDerBaer is 26d540d1-9fc7-4e4c-83de-7a77b11612e4
+[16:17:13] [Server thread/INFO]: BolkeDerBaer[/127.0.0.1:5796] logged in with entity id 7485 at (-95.90211874657172, 72.0, -368.19088581075033)
+[16:17:13] [Server thread/INFO]: Syncing config to BolkeDerBaer (26d540d1-9fc7-4e4c-83de-7a77b11612e4)
+[16:17:13] [Server thread/INFO]: BolkeDerBaer joined the game
+[16:17:14] [Netty Server IO #3/INFO]: [ShulkerBoxTooltip] BolkeDerBaer: protocol version: 2.0
+[16:17:17] [Server thread/INFO]: BolkeDerBaer was slain by Spider
+[16:17:18] [Server thread/INFO]: BolkeDerBaer lost connection: Disconnected
+[16:17:18] [Server thread/INFO]: BolkeDerBaer left the game
+[16:17:45] [Server thread/INFO]: Fehler_ has made the advancement [Sweet Dreams]
+[16:17:56] [Server thread/INFO]: <Fehler_> Bett?
+[16:18:00] [Server thread/INFO]: <Fehler_> liege wie
+[16:18:06] [Server thread/INFO]: <Fehler_> bäd
+[16:18:19] [Server thread/INFO]: <Fehler_> hab wolle geholt auf der anderen insel
+[16:18:23] [Server thread/INFO]: <Fehler_> bin fast verrekt
+[16:18:26] [Server thread/INFO]: <Fehler_> war wild
+[16:18:38] [Server thread/INFO]: [Not Secure] [Server] sheeesh
+[16:18:43] [Server thread/INFO]: <Fehler_> Wenn es das ö ist schuldet der mir 5 euo
+[16:18:45] [Server thread/INFO]: <Fehler_> euro
+[16:19:25] [Server thread/INFO]: [Not Secure] [Server] Hallo Oli
+[16:19:57] [Server thread/INFO]: Todeskakadu has made the advancement [Suit Up]
+[16:20:13] [User Authenticator #7/INFO]: UUID of player BolkeDerBaer is 26d540d1-9fc7-4e4c-83de-7a77b11612e4
+[16:20:13] [Server thread/INFO]: BolkeDerBaer[/127.0.0.1:6220] logged in with entity id 8948 at (-93.91076794972156, 72.0, -369.0748301996671)
+[16:20:13] [Server thread/INFO]: Syncing config to BolkeDerBaer (26d540d1-9fc7-4e4c-83de-7a77b11612e4)
+[16:20:13] [Server thread/INFO]: BolkeDerBaer joined the game
+[16:20:15] [Netty Server IO #5/INFO]: [ShulkerBoxTooltip] BolkeDerBaer: protocol version: 2.0
+[16:21:22] [Server thread/INFO]: Incorrect argument for command
+[16:21:22] [Server thread/INFO]: title op BolkeDerBaer<--[HERE]
+[16:21:58] [Server thread/INFO]: Made BolkeDerBaer a server operator
+[16:22:02] [Server thread/INFO]: [BolkeDerBaer: Set own game mode to Creative Mode]
+[16:23:41] [Server thread/INFO]: [BolkeDerBaer: Gamerule playersSleepingPercentage is now set to: 33]
+[16:26:39] [Server thread/INFO]: Fehler_ has made the advancement [Ice Bucket Challenge]
+[16:26:47] [Server thread/INFO]: <NighterGer> xaero-waypoint:Home:H:-248:73:-873:10:false:0:Internal-overworld-waypoints
+[16:27:30] [Netty Server IO #14/WARN]: Failed to validate message from Fehler_, reasons: unknown message
+[16:27:30] [Server thread/INFO]: Fehler_ lost connection: Chat message validation failure
+[16:27:30] [Server thread/INFO]: Fehler_ left the game
+[16:27:30] [Server thread/WARN]: handleDisconnection() called twice
+[16:27:38] [User Authenticator #8/INFO]: UUID of player Fehler_ is 16ce3aed-31a3-422c-9272-056f109cbdc8
+[16:27:38] [Server thread/INFO]: Fehler_[/91.97.5.94:33866] logged in with entity id 15693 at (-331.99727567987077, 80.0, -1707.8302931676042)
+[16:27:38] [Server thread/INFO]: Syncing config to Fehler_ (16ce3aed-31a3-422c-9272-056f109cbdc8)
+[16:27:38] [Server thread/INFO]: Fehler_ joined the game
+[16:27:38] [Netty Server IO #6/INFO]: [ShulkerBoxTooltip] Fehler_: protocol version: 2.0
+[16:27:42] [Server thread/INFO]: [BolkeDerBaer: Created new objective [Tode]]
+[16:28:22] [Netty Server IO #5/WARN]: Failed to validate message from BolkeDerBaer, reasons: unknown message
+[16:28:22] [Server thread/INFO]: BolkeDerBaer lost connection: Chat message validation failure
+[16:28:22] [Server thread/INFO]: BolkeDerBaer left the game
+[16:28:22] [Server thread/WARN]: handleDisconnection() called twice
+[16:28:31] [User Authenticator #9/INFO]: UUID of player BolkeDerBaer is 26d540d1-9fc7-4e4c-83de-7a77b11612e4
+[16:28:31] [Server thread/INFO]: BolkeDerBaer[/127.0.0.1:53004] logged in with entity id 17001 at (-254.69999998807907, 70.0, -866.3000000119209)
+[16:28:31] [Server thread/INFO]: Syncing config to BolkeDerBaer (26d540d1-9fc7-4e4c-83de-7a77b11612e4)
+[16:28:31] [Server thread/INFO]: BolkeDerBaer joined the game
+[16:28:31] [Netty Server IO #7/INFO]: [ShulkerBoxTooltip] BolkeDerBaer: protocol version: 2.0
+[16:30:23] [Server thread/INFO]: BolkeDerBaer fell out of the world
+[16:30:23] [Server thread/INFO]: [BolkeDerBaer: Killed BolkeDerBaer]
+[16:30:37] [Server thread/INFO]: [BolkeDerBaer: Set display slot sidebar to show objective Tode]
+[16:30:48] [Server thread/INFO]: [BolkeDerBaer: Reset all scores for 4 entities]
+[16:31:00] [Server thread/INFO]: [BolkeDerBaer: Set [Tode] for 4 entities to 0]
+[16:31:17] [Server thread/INFO]: NighterGer has made the advancement [Sweet Dreams]
+[16:31:39] [Server thread/INFO]: [BolkeDerBaer: Created new objective [HP]]
+[16:32:01] [Server thread/INFO]: [BolkeDerBaer: Set display slot list to show objective HP]
+[16:32:31] [Server thread/INFO]: [BolkeDerBaer: Set own game mode to Survival Mode]
+[16:35:55] [Server thread/INFO]: [BolkeDerBaer: Set own game mode to Creative Mode]
+[16:36:06] [Server thread/INFO]: [BolkeDerBaer: Teleported BolkeDerBaer to -241.867904, 1068.000000, -874.371446]
+[16:36:06] [Server thread/WARN]: BolkeDerBaer moved too quickly! 0.0,1000.0,0.0
+[16:37:03] [Server thread/INFO]: [BolkeDerBaer: Changed the block at -242, 274, -875]
+[16:37:38] [Server thread/INFO]: [BolkeDerBaer: Teleported BolkeDerBaer to -193.737758, -64.000000, -841.872514]
+[16:37:38] [Server thread/WARN]: BolkeDerBaer moved too quickly! 0.0,-139.87065255987795,0.0
+[16:39:44] [Server thread/INFO]: [BolkeDerBaer: Applied effect Night Vision to BolkeDerBaer]
+[16:41:54] [Server thread/INFO]: [BolkeDerBaer: Teleported BolkeDerBaer to -193.980310, 120.000000, -841.485557]
+[16:41:54] [Server thread/WARN]: BolkeDerBaer moved too quickly! 0.0,186.78736505888654,0.0
+[16:41:54] [Server thread/WARN]: BolkeDerBaer moved too quickly! 0.0,186.78736505888654,0.0
+[16:42:25] [Server thread/INFO]: [BolkeDerBaer: Teleported BolkeDerBaer to -223.409284, -64.000000, -863.057962]
+[16:42:25] [Server thread/WARN]: BolkeDerBaer moved too quickly! 0.0,-133.0,0.0
+[16:42:47] [Server thread/INFO]: [BolkeDerBaer: Teleported BolkeDerBaer to -193.393992, 120.000000, -841.631052]
+[16:42:47] [Server thread/WARN]: BolkeDerBaer moved too quickly! 0.0,186.7496409095924,0.0
+[16:42:47] [Server thread/WARN]: BolkeDerBaer moved too quickly! 0.0,186.7496409095924,0.0
+[16:42:53] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:53] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:53] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:53] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:53] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:53] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:54] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:54] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:54] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:54] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:54] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:54] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:54] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:54] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:54] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:54] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:54] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:54] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:54] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:54] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:55] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:55] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:55] [Server thread/INFO]: [BolkeDerBaer: Applied effect Speed to BolkeDerBaer]
+[16:42:59] [Server thread/INFO]: [BolkeDerBaer: Teleported BolkeDerBaer to -219.397771, -64.000000, -862.694051]
+[16:42:59] [Server thread/WARN]: BolkeDerBaer moved too quickly! 0.0,-133.0,0.0
+[16:42:59] [Server thread/WARN]: BolkeDerBaer moved too quickly! 0.0,-133.0,0.0
+[16:42:59] [Server thread/WARN]: BolkeDerBaer moved too quickly! 0.0,-133.0,0.0
+[16:43:01] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:01] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:01] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:01] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:05] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:05] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:05] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:10] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:10] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:10] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:15] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:15] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:15] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:18] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:18] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:18] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:18] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:20] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:20] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:20] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:20] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:23] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:23] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:23] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:23] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:25] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:25] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:25] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:25] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:27] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:27] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:27] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:27] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:29] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:29] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:29] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:29] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:29] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:32] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:32] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:32] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:32] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:33] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:33] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:33] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:33] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:35] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:35] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:35] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:35] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:36] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:36] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:36] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:37] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:39] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:39] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:39] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:39] [Server thread/INFO]: [NighterGer: Applied effect Speed to NighterGer]
+[16:43:40] [Server thread/INFO]: [BolkeDerBaer: Gamerule commandBlockOutput is now set to: false]
+[16:44:00] [Server thread/INFO]: [BolkeDerBaer: Teleported BolkeDerBaer to -192.702540, 120.000000, -841.746866]
+[16:44:00] [Server thread/WARN]: BolkeDerBaer moved too quickly! 0.0,187.8915030604154,0.0
+[16:44:36] [Server thread/INFO]: [BolkeDerBaer: Set own game mode to Survival Mode]
+[16:45:03] [Server thread/INFO]: NighterGer has made the advancement [Getting an Upgrade]
+[16:46:13] [Server thread/INFO]: BolkeDerBaer fell from a high place
+[16:46:17] [Server thread/INFO]: BolkeDerBaer has made the advancement [Sweet Dreams]
+[16:46:28] [Server thread/INFO]: Todeskakadu has made the advancement [Sweet Dreams]
+[16:50:09] [Server thread/INFO]: BolkeDerBaer has made the advancement [Acquire Hardware]
+[16:53:04] [Server thread/INFO]: BolkeDerBaer has made the advancement [Diamonds!]
+[17:01:29] [Server thread/INFO]: BolkeDerBaer has made the advancement [Isn't It Iron Pick]
+[17:01:44] [Server thread/INFO]: Fehler_ has made the advancement [Acquire Hardware]
+[17:01:44] [Server thread/INFO]: Fehler_ has made the advancement [Diamonds!]
+[17:04:51] [Server thread/INFO]: BolkeDerBaer has made the advancement [Ice Bucket Challenge]
+[17:09:46] [Server thread/INFO]: <Fehler_> liege wie
+[17:09:58] [Server thread/INFO]: Todeskakadu has made the advancement [Not Today, Thank You]
+[17:09:58] [Server thread/INFO]: <Fehler_> miese briese
+[17:10:05] [Server thread/INFO]: <Fehler_> uranus
+[17:10:12] [Server thread/INFO]: <Fehler_> exexex
+[17:10:20] [Server thread/INFO]: <Fehler_> shit
+[17:10:39] [Server thread/INFO]: <Fehler_> motherfucker
+[17:10:50] [Server thread/INFO]: <Fehler_> asldkfjöalskdjföasälkdjfaösdfk
+[17:10:58] [Server thread/INFO]: <BolkeDerBaer> aywsexdrcfthnuijl,e<rwysdxcieuopuprvwoarwiowwrvgbweroueqwNEQfifeqBJEFboüEBOFESDJFJAESÖbfüeouwbf
+[17:11:03] [Server thread/INFO]: <Fehler_> asdfasdfasdfasdf
+[17:11:15] [Server thread/INFO]: <Fehler_> ofififoofisosodioddpüdodifogogittitror
+[17:11:31] [Server thread/INFO]: <BolkeDerBaer> Digga sheeesh
+[17:12:02] [Server thread/INFO]: <Fehler_> cringe
+[17:12:36] [Server thread/INFO]: <BolkeDerBaer> Zwei Astronauten kauten und kauten während sie blaugrüne Mondsteine klaubten
+[17:13:02] [Server thread/INFO]: <Fehler_> sheesh digga kringe digga akku akku akku akkurat digga
+[17:13:12] [Server thread/INFO]: <BolkeDerBaer> Harr'ck 'ne Hark hat, harr'ck harkt hat, harr'ck ne Hack hat harr'ck hackt hat. (Hätte ich eine Harke gehabt, hätte ich geharkt, hätte ich eine Hacke gehabt, hätte ich gehackt.) PlattdeutschFranken ist da, wo Hasen "Hosen" und Hosen "Husen" heißen.
+[17:13:39] [Server thread/INFO]: NighterGer has made the advancement [Acquire Hardware]
+[17:13:46] [Server thread/INFO]: NighterGer has made the advancement [Isn't It Iron Pick]
+[17:15:59] [Server thread/INFO]: <Fehler_> what the fucking fuck did you just fucking say about me you little shit
+[17:16:52] [Server thread/INFO]: Fehler_ has made the advancement [A Seedy Place]
+[17:22:27] [Server thread/INFO]: <Todeskakadu> liege wie
+[17:22:35] [Server thread/INFO]: <Fehler_> fortnite
+[17:22:38] [Server thread/INFO]: <Todeskakadu> zu wino sag ich nie no
+[17:23:04] [Server thread/INFO]: <Fehler_> Hey guys, did you know that in terms of male human and female Pokémon breeding, Vaporeon is the most compatible Pokémon for humans? Not only are they in the field egg group, which is mostly comprised of mammals, Vaporeon are an average of 3”03’ tall and 63
+[17:23:39] [Server thread/INFO]: Todeskakadu has made the advancement [Diamonds!]
+[17:23:51] [Server thread/INFO]: <BolkeDerBaer> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+[17:24:24] [Server thread/INFO]: <Fehler_> i am a registered sex offender, i stuck my dick into a blender, you mom is a transgender, i am a professional nude sender
+[17:25:14] [Server thread/INFO]: <Fehler_> knees weak arm heavy, there is vomit on his sweater already, moms spaghettiw
+[17:25:30] [Server thread/INFO]: <BolkeDerBaer> Ey mach mal langsam, was is?n los?Ich hör Leute sagen ich hätt Hip Hop verratenUnd hätt keinen FlowIch glaub so langsam ihr peilt es noch nicht
+[17:25:33] [Server thread/INFO]: Fehler_ has made the advancement [Hot Stuff]
+[17:26:16] [Server thread/INFO]: <Fehler_> [Barbara Dabrowska] „Was ist das Erste, was du machst, wenn du rauskommst?“[Xatar] „Das Allererste? Ich glaub', ich geb' mir 'n schönen Kebap, so 'n schönen Köftespieß“Uh, yeah
+[17:27:09] [Server thread/INFO]: <BolkeDerBaer> Ok, 19 dollar fortnite card. Who wants it? And yes, I'm giving it away Remember, share share share! And trolls, don't get blocked
+[17:27:24] [Server thread/INFO]: <Fehler_> Ich war lange weg, doch jetzt bin ich backAlle haben's gecheckt, selbst deine Oma danced zum TrackIch bin zurückgekommen wie TerminatorDu fährst BMW und ich fahr Rollator
+[17:32:30] [Server thread/INFO]: Fehler_ lost connection: Disconnected
+[17:32:30] [Server thread/INFO]: Fehler_ left the game
+[17:34:05] [User Authenticator #10/INFO]: UUID of player Fehler_ is 16ce3aed-31a3-422c-9272-056f109cbdc8
+[17:34:05] [Server thread/INFO]: Fehler_[/91.97.5.94:48334] logged in with entity id 83794 at (-1209.300000011921, 58.0, -1305.300000011921)
+[17:34:05] [Server thread/INFO]: Syncing config to Fehler_ (16ce3aed-31a3-422c-9272-056f109cbdc8)
+[17:34:05] [Server thread/INFO]: Fehler_ joined the game
+[17:34:05] [Netty Server IO #10/INFO]: [ShulkerBoxTooltip] Fehler_: protocol version: 2.0
+[17:34:49] [Server thread/INFO]: <Fehler_> liege wie
+[17:36:41] [Server thread/INFO]: NighterGer lost connection: Disconnected
+[17:36:41] [Server thread/INFO]: NighterGer left the game
+[17:40:54] [User Authenticator #11/INFO]: UUID of player NighterGer is 56619ff0-a0a1-43ad-9d20-767d538a2ac4
+[17:40:55] [Server thread/INFO]: NighterGer[/31.150.81.189:51069] logged in with entity id 89059 at (-194.67252470277103, 41.0, -872.4478510307009)
+[17:40:55] [Server thread/INFO]: Syncing config to NighterGer (56619ff0-a0a1-43ad-9d20-767d538a2ac4)
+[17:40:55] [Server thread/INFO]: NighterGer joined the game
+[17:40:55] [Netty Server IO #12/INFO]: [ShulkerBoxTooltip] NighterGer: protocol version: 2.0
+[17:45:20] [Server thread/INFO]: NighterGer has made the advancement [Diamonds!]
+[17:47:24] [Server thread/INFO]: <Fehler_> bettt?
+[17:59:17] [Server thread/INFO]: Todeskakadu has made the advancement [Ice Bucket Challenge]
+[17:59:34] [Server thread/INFO]: Todeskakadu has made the advancement [The Cutest Predator]
+[17:59:54] [Server thread/INFO]: Fehler_ was slain by Zombie
+[18:03:08] [Server thread/INFO]: BolkeDerBaer lost connection: Disconnected
+[18:03:08] [Server thread/INFO]: BolkeDerBaer left the game
+[18:06:38] [Server thread/INFO]: Fehler_ has made the advancement [Monster Hunter]
+[18:06:39] [User Authenticator #12/INFO]: UUID of player BolkeDerBaer is 26d540d1-9fc7-4e4c-83de-7a77b11612e4
+[18:06:39] [Server thread/INFO]: BolkeDerBaer[/127.0.0.1:10791] logged in with entity id 105930 at (-244.58697652277039, 68.0, -873.9054532724323)
+[18:06:39] [Server thread/INFO]: Syncing config to BolkeDerBaer (26d540d1-9fc7-4e4c-83de-7a77b11612e4)
+[18:06:39] [Server thread/INFO]: BolkeDerBaer joined the game
+[18:06:40] [Netty Server IO #17/INFO]: [ShulkerBoxTooltip] BolkeDerBaer: protocol version: 2.0
+[18:12:23] [Server thread/INFO]: Todeskakadu was slain by Enderman
+[18:14:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12039ms or 240 ticks behind
+[18:14:02] [Server thread/WARN]: Todeskakadu moved too quickly! -2.3152256303917227,0.20110437001944348,-9.818913388350097
+[18:14:02] [Server thread/WARN]: BolkeDerBaer moved too quickly! -0.06846857213304247,10.070370585235487,2.437577762810861
+[18:17:46] [Server thread/INFO]: BolkeDerBaer has made the advancement [Stone Age]
+[18:19:29] [Server thread/INFO]: Todeskakadu lost connection: Disconnected
+[18:19:29] [Server thread/INFO]: Todeskakadu left the game
+[18:19:36] [User Authenticator #13/INFO]: UUID of player Todeskakadu is ada73803-2e0b-47b4-a0a4-90f777a823d4
+[18:19:36] [Server thread/INFO]: Todeskakadu[/91.97.0.189:54487] logged in with entity id 120139 at (-374.7083438726388, -46.0, -842.2486218051267)
+[18:19:36] [Server thread/INFO]: Syncing config to Todeskakadu (ada73803-2e0b-47b4-a0a4-90f777a823d4)
+[18:19:36] [Server thread/INFO]: Todeskakadu joined the game
+[18:19:36] [Netty Server IO #19/INFO]: [ShulkerBoxTooltip] Todeskakadu: protocol version: 2.0
+[18:19:58] [Server thread/INFO]: Todeskakadu tried to swim in lava
+[18:20:16] [Server thread/INFO]: Todeskakadu lost connection: Disconnected
+[18:20:16] [Server thread/INFO]: Todeskakadu left the game
+[18:20:33] [Server thread/INFO]: BolkeDerBaer lost connection: Disconnected
+[18:20:33] [Server thread/INFO]: BolkeDerBaer left the game
+[18:24:54] [User Authenticator #14/INFO]: UUID of player BolkeDerBaer is 26d540d1-9fc7-4e4c-83de-7a77b11612e4
+[18:24:54] [Server thread/INFO]: BolkeDerBaer[/127.0.0.1:11009] logged in with entity id 124128 at (1957.5626272980398, 72.42527412219724, -1684.3768861608646)
+[18:24:54] [Server thread/INFO]: Syncing config to BolkeDerBaer (26d540d1-9fc7-4e4c-83de-7a77b11612e4)
+[18:24:54] [Server thread/INFO]: BolkeDerBaer joined the game
+[18:24:54] [Netty Server IO #1/INFO]: [ShulkerBoxTooltip] BolkeDerBaer: protocol version: 2.0
+[18:36:22] [Server thread/INFO]: BolkeDerBaer lost connection: Disconnected
+[18:36:22] [Server thread/INFO]: BolkeDerBaer left the game
+[18:45:59] [Server thread/INFO]: NighterGer lost connection: Disconnected
+[18:45:59] [Server thread/INFO]: NighterGer left the game
+[18:57:59] [Server thread/INFO]: Fehler_ has made the advancement [Suit Up]
+[18:58:46] [Server thread/INFO]: Fehler_ has made the advancement [Isn't It Iron Pick]
+[18:58:48] [Server thread/INFO]: Fehler_ lost connection: Disconnected
+[18:58:48] [Server thread/INFO]: Fehler_ left the game
+[18:58:51] [Server thread/INFO]: Stopping the server
+[18:58:52] [Server thread/INFO]: Stopping server
+[18:58:52] [Server thread/INFO]: Saving players
+[18:58:52] [Server thread/INFO]: Saving worlds
+[18:58:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:58:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:58:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:58:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:58:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:58:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:58:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
