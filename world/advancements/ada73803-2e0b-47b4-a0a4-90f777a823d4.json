@@ -233,6 +233,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2022-10-25 22:13:29 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2022-10-23 16:14:57 +0200"
@@ -437,6 +443,12 @@
     },
     "done": true
   },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2022-10-25 21:42:00 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2022-10-23 17:42:33 +0200"
@@ -584,6 +596,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2022-10-23 17:10:12 +0200",
+      "minecraft:ghast": "2022-10-25 21:42:00 +0200",
       "minecraft:hoglin": "2022-10-24 17:43:42 +0200",
       "minecraft:magma_cube": "2022-10-24 17:53:04 +0200",
       "minecraft:spider": "2022-10-23 17:11:20 +0200",
@@ -1392,6 +1405,7 @@
     "criteria": {
       "minecraft:crimson_forest": "2022-10-24 17:33:40 +0200",
       "minecraft:nether_wastes": "2022-10-24 17:22:19 +0200",
+      "minecraft:soul_sand_valley": "2022-10-25 21:29:10 +0200",
       "minecraft:warped_forest": "2022-10-24 17:38:52 +0200"
     },
     "done": false
@@ -2120,6 +2134,12 @@
   "minecraft:recipes/building_blocks/deepslate": {
     "criteria": {
       "has_cobbled_deepslate": "2022-10-23 17:52:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2022-10-25 22:13:29 +0200"
     },
     "done": true
   },
