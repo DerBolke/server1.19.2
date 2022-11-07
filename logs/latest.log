@@ -1,6 +1,10 @@
-[15:48:19] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.10
-[15:48:19] [ForkJoinPool-1-worker-1/WARN]: Mod lod uses the version 1.6.9a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[15:48:19] [main/INFO]: Loading 61 mods:
+[20:55:52] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.10
+[20:55:52] [ForkJoinPool-1-worker-1/WARN]: Mod lod uses the version 1.6.9a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[20:55:52] [ForkJoinPool-1-worker-5/WARN]: Mod com_github_shevek_parallelgzip uses the version af5f5c297e735f3f2df7aa4eb0e19a5810b8aff6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'af5f5c297e735f3f2df7aa4eb0e19a5810b8aff6'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[20:55:52] [main/WARN]: Warnings were found!
+ - Mod 'Textile Backup' (textile_backup) 2.4.0-1.19.1 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[20:55:52] [main/INFO]: Loading 65 mods:
 	- architectury 6.3.49
 	- bcc 2.0.2-build.16+mc1.19.1
 	- betterstats 1.4.3
@@ -8,6 +12,7 @@
 	- cloth-basic-math 0.6.1 via cloth-config
 	- cloth-config 8.2.88
 	- clumps 9.0.0+11
+	- com_github_shevek_parallelgzip af5f5c297e735f3f2df7aa4eb0e19a5810b8aff6 via textile_backup
 	- fabric-api 0.64.0+1.19.2
 	- fabric-api-base 0.4.12+93d8cb8290 via fabric-api
 	- fabric-api-lookup-api-v1 1.6.10+93d8cb8290 via fabric-api
@@ -52,8 +57,11 @@
 	- lithium 0.10.0
 	- minecraft 1.19.2
 	- mousewheelie 1.10.2+mc1.19-pre1
+	- org_apache_commons_commons-compress 1.21 via textile_backup
+	- org_tukaani_xz 1.9 via textile_backup
 	- phosphor 0.8.1
 	- shulkerboxtooltip 3.2.1+1.19.2
+	- textile_backup 2.4.0-1.19.1
 	- tipthescales 6.0.6
 	- toolstats 12.0.2
 	- tweed4_annotated 1.3.1+mc22w17a via mousewheelie
@@ -62,290 +70,61 @@
 	- tweed4_data_hjson 1.1.1+mc22w17a via mousewheelie
 	- xaerominimap 22.16.0
 	- xaeroworldmap 1.28.1
-[15:48:19] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Arnold/Desktop/server1.19.2/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[15:48:19] [main/INFO]: Compatibility level set to JAVA_16
-[15:48:19] [main/INFO]: Compatibility level set to JAVA_17
-[15:48:19] [main/WARN]: Reference map 'JustEnoughProfessions-fabric-1.19-refmap.json' for justenoughprofessions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:48:19] [main/INFO]: Loaded configuration file for Lithium: 105 options available, 0 override(s) found
-[15:48:20] [main/WARN]: Error loading class: net/minecraft/class_315 (java.lang.ClassNotFoundException: net/minecraft/class_315)
-[15:48:20] [main/WARN]: @Mixin target net.minecraft.class_315 was not found tipthescales.mixins.json:AccessOptions from mod tipthescales
-[15:48:25] [main/INFO]: Building unoptimized datafixer
-[15:48:27] [main/INFO]: Loading config file
-[15:48:27] [main/INFO]: Config file loaded
-[15:48:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[15:48:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[15:48:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[15:48:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[15:48:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[15:48:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[15:48:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[15:48:28] [main/INFO]: Start loading plugin from jade
-[15:48:28] [main/INFO]: Start loading plugin from jade
-[15:48:28] [main/INFO]: Start loading plugin from jade
-[15:48:28] [main/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
-[15:48:28] [main/INFO]: Could not load 'betterstats' config. File not found.
-[15:48:28] [main/INFO]: Loaded 'betterstats' config.
-[15:48:28] [main/INFO]: Could not load 'betterstats' config for the 'BSMobStatRenderConfig'. File not found.
-[15:48:28] [main/INFO]: Could not load 'betterstats' config for the 'BSWikiLinkConfig'. File not found.
-[15:48:28] [main/INFO]: Reloaded configs for mousewheelie (server/highest)
-[15:48:28] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[15:48:28] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[15:48:28] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:48:29] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[15:48:30] [main/INFO]: Loaded 7 recipes
-[15:48:31] [main/INFO]: Loaded 1179 advancements
-[15:48:31] [main/INFO]: Reloaded configs for mousewheelie (server/smallest)
-[15:48:31] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 2.759 ms
-[15:48:31] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[15:48:31] [Server thread/INFO]: Loading properties
-[15:48:31] [Server thread/INFO]: Default game type: SURVIVAL
-[15:48:31] [Server thread/INFO]: Generating keypair
-[15:48:31] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:48:31] [Server thread/INFO]: Using default channel type
-[15:48:32] [Server thread/INFO]: Preparing level "world"
-[15:48:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:48:35] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[15:48:35] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[15:48:35] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[15:48:35] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[15:48:35] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[15:48:35] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[15:48:35] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[15:48:36] [Worker-Main-9/INFO]: Preparing spawn area: 8%
-[15:48:36] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[15:48:36] [Server thread/INFO]: Time elapsed: 4143 ms
-[15:48:36] [Server thread/INFO]: Done (4.628s)! For help, type "help"
-[15:48:36] [Server thread/INFO]: Reloaded configs for mousewheelie (server/world)
-[15:48:36] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[15:48:36] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[15:52:05] [User Authenticator #1/INFO]: UUID of player BolkeDerBaer is 26d540d1-9fc7-4e4c-83de-7a77b11612e4
-[15:52:05] [Server thread/INFO]: BolkeDerBaer[/127.0.0.1:59838] logged in with entity id 27 at (-1208.5586302226786, 66.5, -1306.5559976872678)
-[15:52:05] [Server thread/INFO]: Syncing config to BolkeDerBaer (26d540d1-9fc7-4e4c-83de-7a77b11612e4)
-[15:52:05] [Server thread/INFO]: BolkeDerBaer joined the game
-[15:52:05] [Netty Server IO #2/INFO]: [ShulkerBoxTooltip] BolkeDerBaer: protocol version: 2.0
-[15:52:06] [Server thread/INFO]: [ShulkerBoxTooltip] Loading 1 plugin: shulkerboxtooltip
-[15:52:06] [Server thread/INFO]: [ShulkerBoxTooltip] Registered 7 providers for mod shulkerboxtooltip
-[15:52:15] [Server thread/INFO]: BolkeDerBaer lost connection: Disconnected
-[15:52:15] [Server thread/INFO]: BolkeDerBaer left the game
-[15:58:23] [User Authenticator #2/INFO]: UUID of player Fehler_ is 16ce3aed-31a3-422c-9272-056f109cbdc8
-[15:58:23] [Server thread/INFO]: Fehler_[/91.97.3.251:51326] logged in with entity id 379 at (-1235.3633940960556, 62.02950210490765, -1281.6603140039201)
-[15:58:23] [Server thread/INFO]: Syncing config to Fehler_ (16ce3aed-31a3-422c-9272-056f109cbdc8)
-[15:58:23] [Server thread/INFO]: Fehler_ joined the game
-[15:58:24] [Netty Server IO #4/INFO]: [ShulkerBoxTooltip] Fehler_: protocol version: 2.0
-[16:00:30] [Server thread/INFO]: Fehler_ lost connection: Disconnected
-[16:00:30] [Server thread/INFO]: Fehler_ left the game
-[16:01:35] [User Authenticator #3/INFO]: UUID of player Fehler_ is 16ce3aed-31a3-422c-9272-056f109cbdc8
-[16:01:35] [Server thread/INFO]: Fehler_[/91.97.3.251:56070] logged in with entity id 1185 at (-1219.2779752015044, 91.0, -1295.9376036288872)
-[16:01:35] [Server thread/INFO]: Syncing config to Fehler_ (16ce3aed-31a3-422c-9272-056f109cbdc8)
-[16:01:35] [Server thread/INFO]: Fehler_ joined the game
-[16:01:35] [Netty Server IO #6/INFO]: [ShulkerBoxTooltip] Fehler_: protocol version: 2.0
-[16:12:13] [Server thread/INFO]: Fehler_ was slain by Iron Golem
-[16:17:23] [Server thread/INFO]: Fehler_ lost connection: Disconnected
-[16:17:23] [Server thread/INFO]: Fehler_ left the game
-[17:06:32] [User Authenticator #4/INFO]: UUID of player Fehler_ is 16ce3aed-31a3-422c-9272-056f109cbdc8
-[17:06:33] [Server thread/INFO]: Fehler_[/91.97.3.251:57250] logged in with entity id 5890 at (-1217.8414850791914, 95.5, -1281.7854089220377)
-[17:06:33] [Server thread/INFO]: Syncing config to Fehler_ (16ce3aed-31a3-422c-9272-056f109cbdc8)
-[17:06:33] [Server thread/INFO]: Fehler_ joined the game
-[17:06:33] [Netty Server IO #9/INFO]: [ShulkerBoxTooltip] Fehler_: protocol version: 2.0
-[17:43:38] [User Authenticator #5/INFO]: UUID of player BolkeDerBaer is 26d540d1-9fc7-4e4c-83de-7a77b11612e4
-[17:43:38] [Server thread/INFO]: BolkeDerBaer[/127.0.0.1:9881] logged in with entity id 20144 at (-1208.5171643195424, 67.5, -1308.6511271704503)
-[17:43:38] [Server thread/INFO]: Syncing config to BolkeDerBaer (26d540d1-9fc7-4e4c-83de-7a77b11612e4)
-[17:43:38] [Server thread/INFO]: BolkeDerBaer joined the game
-[17:43:40] [Netty Server IO #13/INFO]: [ShulkerBoxTooltip] BolkeDerBaer: protocol version: 2.0
-[17:43:49] [Server thread/INFO]: BolkeDerBaer lost connection: Disconnected
-[17:43:49] [Server thread/INFO]: BolkeDerBaer left the game
-[17:46:44] [User Authenticator #6/INFO]: UUID of player BolkeDerBaer is 26d540d1-9fc7-4e4c-83de-7a77b11612e4
-[17:46:44] [Server thread/INFO]: BolkeDerBaer[/127.0.0.1:10142] logged in with entity id 20779 at (-1208.5171643195424, 67.5, -1308.6511271704503)
-[17:46:44] [Server thread/INFO]: Syncing config to BolkeDerBaer (26d540d1-9fc7-4e4c-83de-7a77b11612e4)
-[17:46:44] [Server thread/INFO]: BolkeDerBaer joined the game
-[17:46:46] [Netty Server IO #16/INFO]: [ShulkerBoxTooltip] BolkeDerBaer: protocol version: 2.0
-[17:46:58] [Server thread/INFO]: <BolkeDerBaer> hi
-[17:47:34] [Server thread/INFO]: <Fehler_> dc?
-[17:47:51] [Server thread/INFO]: <BolkeDerBaer> in ca 5 min
-[17:51:26] [Server thread/INFO]: BolkeDerBaer has made the advancement [We Need to Go Deeper]
-[17:51:41] [Server thread/INFO]: BolkeDerBaer has made the advancement [Not Today, Thank You]
-[17:51:57] [Server thread/INFO]: BolkeDerBaer lost connection: Disconnected
-[17:51:57] [Server thread/INFO]: BolkeDerBaer left the game
-[17:53:48] [Server thread/INFO]: Fehler_ was slain by Iron Golem
-[17:53:49] [Server thread/WARN]: Fehler_ moved too quickly! -9.947911317410671,-32.9375,-5.800000011920929
-[17:53:49] [Server thread/WARN]: Fehler_ moved too quickly! -9.947911317410671,-32.9375,-5.800000011920929
-[17:54:01] [User Authenticator #7/INFO]: UUID of player BolkeDerBaer is 26d540d1-9fc7-4e4c-83de-7a77b11612e4
-[17:54:01] [Server thread/INFO]: BolkeDerBaer[/127.0.0.1:18942] logged in with entity id 25619 at (-210.15969075354155, 63.0, -842.9377073915664)
-[17:54:01] [Server thread/INFO]: Syncing config to BolkeDerBaer (26d540d1-9fc7-4e4c-83de-7a77b11612e4)
-[17:54:01] [Server thread/INFO]: BolkeDerBaer joined the game
-[17:54:03] [Netty Server IO #18/INFO]: [ShulkerBoxTooltip] BolkeDerBaer: protocol version: 2.0
-[17:54:49] [Server thread/INFO]: Fehler_ lost connection: Disconnected
-[17:54:49] [Server thread/INFO]: Fehler_ left the game
-[17:55:12] [Server thread/INFO]: [BolkeDerBaer: Gave 30 experience levels to BolkeDerBaer]
-[17:55:26] [Server thread/INFO]: BolkeDerBaer has made the advancement [Enchanter]
-[17:55:45] [Server thread/INFO]: [BolkeDerBaer: Set 30 experience levels on BolkeDerBaer]
-[17:56:02] [Server thread/INFO]: [BolkeDerBaer: Set 30 experience levels on BolkeDerBaer]
-[17:56:21] [Server thread/INFO]: [BolkeDerBaer: Gave 1 [Iron Sword] to BolkeDerBaer]
-[17:56:25] [Server thread/INFO]: com.mojang.authlib.GameProfile@3ab3aacf[id=<null>,name=Fehler_,properties={},legacy=false] (/91.97.3.251:51394) lost connection: Disconnected
-[17:56:29] [Server thread/INFO]: com.mojang.authlib.GameProfile@29dce2e6[id=<null>,name=Fehler_,properties={},legacy=false] (/91.97.3.251:51402) lost connection: Disconnected
-[17:56:58] [User Authenticator #8/INFO]: UUID of player Fehler_ is 16ce3aed-31a3-422c-9272-056f109cbdc8
-[17:56:58] [Server thread/INFO]: Fehler_[/91.97.3.251:46072] logged in with entity id 26589 at (-1216.699999988079, 85.5, -1283.4871486516354)
-[17:56:58] [Server thread/INFO]: Syncing config to Fehler_ (16ce3aed-31a3-422c-9272-056f109cbdc8)
-[17:56:58] [Server thread/INFO]: Fehler_ joined the game
-[17:56:59] [Netty Server IO #23/INFO]: [ShulkerBoxTooltip] Fehler_: protocol version: 2.0
-[17:58:10] [Server thread/INFO]: Fehler_ was slain by Iron Golem
-[17:58:13] [Server thread/WARN]: Fehler_ moved too quickly! -5.675666112879981,-32.4375,4.433941460957385
-[17:59:30] [Server thread/INFO]: Villager class_1646['Villager'/27413, l='ServerLevel[world]', x=-1200.70, y=65.50, z=-1310.97] died, message: 'Villager was slain by Zombie'
-[18:00:31] [Server thread/INFO]: [BolkeDerBaer: Set own game mode to Spectator Mode]
-[18:00:37] [Server thread/INFO]: [BolkeDerBaer: Set own game mode to Survival Mode]
-[18:00:46] [Server thread/INFO]: [BolkeDerBaer: Set own game mode to Creative Mode]
-[18:01:22] [Server thread/INFO]: Fehler_ fell from a high place
-[18:03:24] [Server thread/INFO]: BolkeDerBaer has made the advancement [Monster Hunter]
-[18:03:47] [Server thread/INFO]: [BolkeDerBaer: Set Fehler_'s game mode to Creative Mode]
-[18:07:05] [Server thread/INFO]: [BolkeDerBaer: Set Fehler_'s game mode to Survival Mode]
-[18:07:07] [Server thread/INFO]: Fehler_ was slain by Iron Golem
-[18:07:56] [Server thread/INFO]: [BolkeDerBaer: Teleported BolkeDerBaer to -247.500000, 73.500000, -872.500000]
-[18:08:02] [Server thread/INFO]: BolkeDerBaer lost connection: Disconnected
-[18:08:02] [Server thread/INFO]: BolkeDerBaer left the game
-[18:13:20] [User Authenticator #9/INFO]: UUID of player BolkeDerBaer is 26d540d1-9fc7-4e4c-83de-7a77b11612e4
-[18:13:20] [Server thread/INFO]: BolkeDerBaer[/127.0.0.1:47921] logged in with entity id 32047 at (-247.5, 73.5, -872.5)
-[18:13:20] [Server thread/INFO]: Syncing config to BolkeDerBaer (26d540d1-9fc7-4e4c-83de-7a77b11612e4)
-[18:13:20] [Server thread/INFO]: BolkeDerBaer joined the game
-[18:13:22] [Netty Server IO #1/INFO]: [ShulkerBoxTooltip] BolkeDerBaer: protocol version: 2.0
-[18:13:32] [Server thread/INFO]: BolkeDerBaer lost connection: Disconnected
-[18:13:32] [Server thread/INFO]: BolkeDerBaer left the game
-[18:15:10] [User Authenticator #10/INFO]: UUID of player BolkeDerBaer is 26d540d1-9fc7-4e4c-83de-7a77b11612e4
-[18:15:10] [Server thread/INFO]: BolkeDerBaer[/127.0.0.1:48138] logged in with entity id 32618 at (-247.5, 73.5, -872.5)
-[18:15:10] [Server thread/INFO]: Syncing config to BolkeDerBaer (26d540d1-9fc7-4e4c-83de-7a77b11612e4)
-[18:15:10] [Server thread/INFO]: BolkeDerBaer joined the game
-[18:15:11] [Netty Server IO #3/INFO]: [ShulkerBoxTooltip] BolkeDerBaer: protocol version: 2.0
-[18:18:09] [Server thread/INFO]: [BolkeDerBaer: Set own game mode to Survival Mode]
-[18:18:33] [Server thread/INFO]: [BolkeDerBaer: Set own game mode to Creative Mode]
-[18:18:40] [Server thread/INFO]: [BolkeDerBaer: Set own game mode to Survival Mode]
-[18:18:57] [Server thread/INFO]: BolkeDerBaer has made the advancement [The Parrots and the Bats]
-[18:39:19] [Server thread/INFO]: BolkeDerBaer lost connection: Disconnected
-[18:39:19] [Server thread/INFO]: BolkeDerBaer left the game
-[19:43:25] [Server thread/INFO]: Fehler_ has made the advancement [Cover Me with Diamonds]
-[19:51:40] [User Authenticator #11/INFO]: UUID of player Todeskakadu is ada73803-2e0b-47b4-a0a4-90f777a823d4
-[19:51:40] [Server thread/INFO]: Todeskakadu[/91.97.4.3:50919] logged in with entity id 51781 at (-291.98851407380624, -22.0, -901.3000000119209)
-[19:51:40] [Server thread/INFO]: Syncing config to Todeskakadu (ada73803-2e0b-47b4-a0a4-90f777a823d4)
-[19:51:40] [Server thread/INFO]: Todeskakadu joined the game
-[19:51:42] [Netty Server IO #8/INFO]: [ShulkerBoxTooltip] Todeskakadu: protocol version: 2.0
-[19:54:55] [Server thread/INFO]: Todeskakadu lost connection: Disconnected
-[19:54:55] [Server thread/INFO]: Todeskakadu left the game
-[19:58:30] [Server thread/INFO]: Villager class_1646['Villager'/54349, l='ServerLevel[world]', x=-1194.09, y=90.90, z=-1301.45] died, message: 'Villager was slain by Zombie'
-[20:05:16] [Server thread/INFO]: Fehler_ lost connection: Disconnected
-[20:05:16] [Server thread/INFO]: Fehler_ left the game
-[20:43:05] [User Authenticator #12/INFO]: UUID of player Fehler_ is 16ce3aed-31a3-422c-9272-056f109cbdc8
-[20:43:05] [Server thread/INFO]: Fehler_[/91.97.3.251:59504] logged in with entity id 58152 at (-210.64592375252172, 63.0, -862.2989613891533)
-[20:43:05] [Server thread/INFO]: Syncing config to Fehler_ (16ce3aed-31a3-422c-9272-056f109cbdc8)
-[20:43:05] [Server thread/INFO]: Fehler_ joined the game
-[20:43:05] [Netty Server IO #13/INFO]: [ShulkerBoxTooltip] Fehler_: protocol version: 2.0
-[20:44:59] [Server thread/INFO]: Fehler_ lost connection: Disconnected
-[20:44:59] [Server thread/INFO]: Fehler_ left the game
-[20:46:42] [Server thread/INFO]: /advancement (grant|revoke)
-[20:46:42] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[20:46:42] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in)
-[20:46:42] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[20:46:42] [Server thread/INFO]: /clear [<targets>]
-[20:46:42] [Server thread/INFO]: /clone <begin> <end> <destination> [replace|masked|filtered]
-[20:46:42] [Server thread/INFO]: /data (merge|get|remove|modify)
-[20:46:42] [Server thread/INFO]: /datapack (enable|disable|list)
-[20:46:42] [Server thread/INFO]: /debug (start|stop|function)
-[20:46:42] [Server thread/INFO]: /defaultgamemode (survival|creative|adventure|spectator)
-[20:46:42] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[20:46:42] [Server thread/INFO]: /effect (clear|give)
-[20:46:42] [Server thread/INFO]: /me <action>
-[20:46:42] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[20:46:42] [Server thread/INFO]: /experience (add|set|query)
-[20:46:42] [Server thread/INFO]: /xp -> experience
-[20:46:42] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[20:46:42] [Server thread/INFO]: /forceload (add|remove|query)
-[20:46:42] [Server thread/INFO]: /function <name>
-[20:46:42] [Server thread/INFO]: /gamemode (survival|creative|adventure|spectator)
-[20:46:42] [Server thread/INFO]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
-[20:46:42] [Server thread/INFO]: /give <targets> <item> [<count>]
-[20:46:42] [Server thread/INFO]: /help [<command>]
-[20:46:42] [Server thread/INFO]: /item (replace|modify)
-[20:46:42] [Server thread/INFO]: /kick <targets> [<reason>]
-[20:46:42] [Server thread/INFO]: /kill [<targets>]
-[20:46:42] [Server thread/INFO]: /list [uuids]
-[20:46:42] [Server thread/INFO]: /locate (structure|biome|poi)
-[20:46:42] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[20:46:42] [Server thread/INFO]: /msg <targets> <message>
-[20:46:42] [Server thread/INFO]: /tell -> msg
-[20:46:42] [Server thread/INFO]: /w -> msg
-[20:46:42] [Server thread/INFO]: /particle <name> [<pos>]
-[20:46:42] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
-[20:46:42] [Server thread/INFO]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
-[20:46:42] [Server thread/INFO]: /reload
-[20:46:42] [Server thread/INFO]: /recipe (give|take)
-[20:46:42] [Server thread/INFO]: /say <message>
-[20:46:42] [Server thread/INFO]: /schedule (function|clear)
-[20:46:42] [Server thread/INFO]: /scoreboard (objectives|players)
-[20:46:42] [Server thread/INFO]: /seed
-[20:46:42] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[20:46:42] [Server thread/INFO]: /spawnpoint [<targets>]
-[20:46:42] [Server thread/INFO]: /setworldspawn [<pos>]
-[20:46:42] [Server thread/INFO]: /spectate [<target>]
-[20:46:42] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[20:46:42] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[20:46:42] [Server thread/INFO]: /summon <entity> [<pos>]
-[20:46:42] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[20:46:42] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[20:46:42] [Server thread/INFO]: /teammsg <message>
-[20:46:42] [Server thread/INFO]: /tm -> teammsg
-[20:46:42] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[20:46:42] [Server thread/INFO]: /tp -> teleport
-[20:46:42] [Server thread/INFO]: /tellraw <targets> <message>
-[20:46:42] [Server thread/INFO]: /time (set|add|query)
-[20:46:42] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[20:46:42] [Server thread/INFO]: /trigger <objective> [add|set]
-[20:46:42] [Server thread/INFO]: /weather (clear|rain|thunder)
-[20:46:42] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[20:46:42] [Server thread/INFO]: /jfr (start|stop)
-[20:46:42] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[20:46:42] [Server thread/INFO]: /banlist [ips|players]
-[20:46:42] [Server thread/INFO]: /ban <targets> [<reason>]
-[20:46:42] [Server thread/INFO]: /deop <targets>
-[20:46:42] [Server thread/INFO]: /op <targets>
-[20:46:42] [Server thread/INFO]: /pardon <targets>
-[20:46:42] [Server thread/INFO]: /pardon-ip <target>
-[20:46:42] [Server thread/INFO]: /perf (start|stop)
-[20:46:42] [Server thread/INFO]: /save-all [flush]
-[20:46:42] [Server thread/INFO]: /save-off
-[20:46:42] [Server thread/INFO]: /save-on
-[20:46:42] [Server thread/INFO]: /setidletimeout <minutes>
-[20:46:42] [Server thread/INFO]: /stop
-[20:46:42] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[20:46:42] [Server thread/INFO]: /bookshelf (font|hand)
-[21:11:27] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[21:11:27] [Server thread/INFO]: bookshelf<--[HERE]
-[21:11:29] [User Authenticator #13/INFO]: UUID of player Todeskakadu is ada73803-2e0b-47b4-a0a4-90f777a823d4
-[21:11:29] [Server thread/INFO]: Todeskakadu[/91.97.4.3:62465] logged in with entity id 58681 at (-222.67671001828583, 70.0, -892.9588156231608)
-[21:11:29] [Server thread/INFO]: Syncing config to Todeskakadu (ada73803-2e0b-47b4-a0a4-90f777a823d4)
-[21:11:29] [Server thread/INFO]: Todeskakadu joined the game
-[21:11:30] [Netty Server IO #16/INFO]: [ShulkerBoxTooltip] Todeskakadu: protocol version: 2.0
-[21:11:33] [User Authenticator #14/INFO]: UUID of player Fehler_ is 16ce3aed-31a3-422c-9272-056f109cbdc8
-[21:11:33] [Server thread/INFO]: Fehler_[/91.97.3.251:36790] logged in with entity id 58963 at (-191.57755897029355, 63.0, -859.8631476071436)
-[21:11:33] [Server thread/INFO]: Syncing config to Fehler_ (16ce3aed-31a3-422c-9272-056f109cbdc8)
-[21:11:33] [Server thread/INFO]: Fehler_ joined the game
-[21:11:33] [Netty Server IO #17/INFO]: [ShulkerBoxTooltip] Fehler_: protocol version: 2.0
-[21:14:47] [Server thread/INFO]: Todeskakadu lost connection: Disconnected
-[21:14:47] [Server thread/INFO]: Todeskakadu left the game
-[21:16:18] [User Authenticator #15/INFO]: UUID of player Todeskakadu is ada73803-2e0b-47b4-a0a4-90f777a823d4
-[21:16:18] [Server thread/INFO]: Todeskakadu[/91.97.4.3:63138] logged in with entity id 60538 at (-17.467853883694943, 59.0, -112.5)
-[21:16:18] [Server thread/INFO]: Syncing config to Todeskakadu (ada73803-2e0b-47b4-a0a4-90f777a823d4)
-[21:16:18] [Server thread/INFO]: Todeskakadu joined the game
-[21:16:20] [Netty Server IO #19/INFO]: [ShulkerBoxTooltip] Todeskakadu: protocol version: 2.0
-[21:42:00] [Server thread/INFO]: Todeskakadu has completed the challenge [Return to Sender]
-[21:45:20] [User Authenticator #16/INFO]: UUID of player NighterGer is 56619ff0-a0a1-43ad-9d20-767d538a2ac4
-[21:45:20] [Server thread/INFO]: NighterGer[/31.150.86.139:63030] logged in with entity id 77977 at (-242.59196526318306, 68.0, -872.5557239671512)
-[21:45:20] [Server thread/INFO]: Syncing config to NighterGer (56619ff0-a0a1-43ad-9d20-767d538a2ac4)
-[21:45:20] [Server thread/INFO]: NighterGer joined the game
-[21:45:22] [Netty Server IO #22/INFO]: [ShulkerBoxTooltip] NighterGer: protocol version: 2.0
-[21:49:50] [Server thread/INFO]: NighterGer lost connection: Disconnected
-[21:49:50] [Server thread/INFO]: NighterGer left the game
-[22:01:42] [Server thread/INFO]: Fehler_ was slain by Iron Golem
-[22:01:43] [Server thread/WARN]: Fehler_ moved too quickly! -25.9827886092242,9.0,-0.8114715879913774
-[22:01:43] [Server thread/WARN]: Fehler_ moved too quickly! -25.9827886092242,9.0,-0.8114715879913774
-[22:05:53] [Server thread/INFO]: Fehler_ lost connection: Disconnected
-[22:05:53] [Server thread/INFO]: Fehler_ left the game
-[22:13:29] [Server thread/INFO]: Todeskakadu has made the advancement [What a Deal!]
-[22:14:50] [Server thread/INFO]: Todeskakadu lost connection: Disconnected
-[22:14:50] [Server thread/INFO]: Todeskakadu left the game
+[20:55:52] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Arnold/Desktop/server1.19.2/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[20:55:52] [main/INFO]: Compatibility level set to JAVA_16
+[20:55:52] [main/INFO]: Compatibility level set to JAVA_17
+[20:55:53] [main/WARN]: Reference map 'JustEnoughProfessions-fabric-1.19-refmap.json' for justenoughprofessions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:55:53] [main/INFO]: Loaded configuration file for Lithium: 105 options available, 0 override(s) found
+[20:55:53] [main/WARN]: Error loading class: net/minecraft/class_315 (java.lang.ClassNotFoundException: net/minecraft/class_315)
+[20:55:53] [main/WARN]: @Mixin target net.minecraft.class_315 was not found tipthescales.mixins.json:AccessOptions from mod tipthescales
+[20:55:59] [main/INFO]: Building unoptimized datafixer
+[20:56:01] [main/INFO]: Loading config file
+[20:56:01] [main/INFO]: Config file loaded
+[20:56:01] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[20:56:01] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[20:56:01] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[20:56:01] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[20:56:01] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[20:56:01] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[20:56:01] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[20:56:01] [main/INFO]: Start loading plugin from jade
+[20:56:01] [main/INFO]: Start loading plugin from jade
+[20:56:02] [main/INFO]: Start loading plugin from jade
+[20:56:02] [main/INFO]: [Textile Backup] Starting Textile Backup by Szum123321
+[20:56:02] [main/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
+[20:56:02] [main/INFO]: Could not load 'betterstats' config. File not found.
+[20:56:02] [main/INFO]: Loaded 'betterstats' config.
+[20:56:02] [main/INFO]: Could not load 'betterstats' config for the 'BSMobStatRenderConfig'. File not found.
+[20:56:02] [main/INFO]: Could not load 'betterstats' config for the 'BSWikiLinkConfig'. File not found.
+[20:56:02] [main/INFO]: Reloaded configs for mousewheelie (server/highest)
+[20:56:02] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[20:56:02] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[20:56:02] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:56:03] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[20:56:04] [main/INFO]: Loaded 7 recipes
+[20:56:04] [main/INFO]: Loaded 1179 advancements
+[20:56:04] [main/INFO]: Reloaded configs for mousewheelie (server/smallest)
+[20:56:05] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 2.667 ms
+[20:56:05] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[20:56:05] [Server thread/INFO]: Loading properties
+[20:56:05] [Server thread/INFO]: Default game type: SURVIVAL
+[20:56:05] [Server thread/INFO]: Generating keypair
+[20:56:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:56:05] [Server thread/INFO]: Using default channel type
+[20:56:06] [Server thread/INFO]: Preparing level "world"
+[20:56:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:56:09] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[20:56:09] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:56:09] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:56:09] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[20:56:09] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[20:56:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:56:09] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:56:10] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[20:56:10] [Worker-Main-1/INFO]: Preparing spawn area: 59%
+[20:56:10] [Server thread/INFO]: Time elapsed: 4312 ms
+[20:56:10] [Server thread/INFO]: Done (4.783s)! For help, type "help"
+[20:56:10] [Server thread/INFO]: Reloaded configs for mousewheelie (server/world)
+[20:56:10] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[20:56:10] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[21:27:09] [Server thread/INFO]: [Textile Backup] Starting backup

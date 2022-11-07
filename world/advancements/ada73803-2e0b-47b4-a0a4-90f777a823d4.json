@@ -203,6 +203,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2022-10-26 16:33:20 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2022-10-24 20:57:58 +0200"
@@ -236,6 +242,12 @@
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2022-10-25 22:13:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2022-10-27 19:26:19 +0200"
     },
     "done": true
   },
@@ -604,6 +616,7 @@
       "minecraft:creeper": "2022-10-23 17:11:10 +0200",
       "minecraft:slime": "2022-10-24 16:35:55 +0200",
       "minecraft:phantom": "2022-10-24 20:38:04 +0200",
+      "minecraft:witch": "2022-10-26 17:41:56 +0200",
       "minecraft:cave_spider": "2022-10-23 17:54:57 +0200",
       "minecraft:piglin": "2022-10-24 17:24:12 +0200",
       "minecraft:enderman": "2022-10-24 17:40:51 +0200",
@@ -664,6 +677,12 @@
   "minecraft:recipes/decorations/crimson_sign": {
     "criteria": {
       "has_planks": "2022-10-24 17:53:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2022-10-26 17:40:20 +0200"
     },
     "done": true
   },
@@ -886,6 +905,12 @@
   "minecraft:recipes/redstone/crimson_fence_gate": {
     "criteria": {
       "has_planks": "2022-10-24 17:53:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2022-10-27 19:43:45 +0200"
     },
     "done": true
   },
@@ -1229,8 +1254,10 @@
       "minecraft:lukewarm_ocean": "2022-10-23 16:16:57 +0200",
       "minecraft:river": "2022-10-23 17:15:53 +0200",
       "minecraft:stony_shore": "2022-10-23 17:24:30 +0200",
+      "minecraft:cold_ocean": "2022-10-26 16:46:54 +0200",
       "minecraft:forest": "2022-10-23 17:16:36 +0200",
       "minecraft:lush_caves": "2022-10-23 16:08:26 +0200",
+      "minecraft:deep_cold_ocean": "2022-10-26 16:46:15 +0200",
       "minecraft:ocean": "2022-10-24 19:10:36 +0200",
       "minecraft:warm_ocean": "2022-10-23 17:00:45 +0200",
       "minecraft:deep_lukewarm_ocean": "2022-10-23 16:23:00 +0200",
@@ -1452,6 +1479,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2022-10-26 17:40:20 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2022-10-23 17:20:45 +0200"
@@ -1533,6 +1566,12 @@
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2022-10-23 17:10:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2022-10-26 17:59:58 +0200"
     },
     "done": true
   },
@@ -1867,6 +1906,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2022-10-26 17:40:20 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_quartz": "2022-10-24 17:22:36 +0200"
@@ -2038,6 +2083,12 @@
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2022-10-23 16:14:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2022-10-27 19:26:19 +0200"
     },
     "done": true
   },
@@ -2548,6 +2599,12 @@
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2022-10-23 17:56:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2022-10-27 19:27:59 +0200"
     },
     "done": true
   },
